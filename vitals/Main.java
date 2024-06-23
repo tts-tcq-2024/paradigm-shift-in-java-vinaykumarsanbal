@@ -2,7 +2,7 @@ package vitals;
 
 public class Main {
     static boolean batteryIsOk(float temperature, float soc, float chargeRate) {
-        return ( isTemparetureIsOK(temperature) && isSocIsOK(soc) && isChangeRateIsOK(chargeRate));
+        return ( isTemparetureIsOK(temperature) && isSocIsOK(soc) && isChargeRateIsOK(chargeRate));
     }
     static boolean isTemparetureIsOK(float temparature){
         if(temparature < 0 || temparature > 45) {
