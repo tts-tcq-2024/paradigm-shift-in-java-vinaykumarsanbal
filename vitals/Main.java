@@ -20,7 +20,7 @@ public class Main {
         return true;
     }
 
-    static booleab isChargeRateIsOK(float chargeRate){
+    static boolean isChargeRateIsOK(float chargeRate){
         if(chargeRate > 0.8) {
             System.out.println("Charge Rate is out of range!");
             return false;
