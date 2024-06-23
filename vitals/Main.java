@@ -5,7 +5,7 @@ public class Main {
         return ( isTemparetureIsOK(temperature) && isSocIsOK(soc) && isChangeRateIsOK(chargeRate));
     }
     static boolean isTemparetureIsOK(float temparature){
-        if(temperature < 0 || temperature > 45) {
+        if(temparature < 0 || temparature > 45) {
             System.out.println("Temperature is out of range!");
             return false;
         }
@@ -20,7 +20,7 @@ public class Main {
         return true;
     }
 
-    static booleab isChargeRateIsOK(float changeRate){
+    static booleab isChargeRateIsOK(float chargeRate){
         if(chargeRate > 0.8) {
             System.out.println("Charge Rate is out of range!");
             return false;
